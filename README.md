@@ -64,7 +64,34 @@
 
 ---
 
-## 五、安装（三步）
+## 五、安装
+
+完整图文步骤见 ima 笔记：[简历诊断 Skill（适合猎头/HR）](https://ima.qq.com/note/share/_A0aN7aN8w-dKp0RZ1dkMw?channel=4)
+
+### 方式 1：把提示词发给 AI（最快）
+
+直接把下面这句发给你的 AI 助手（WorkBuddy、ima Copilot 等），它会按 skillhub 安装协议自己装：
+
+```
+请根据 https://skillhub.cn/install/skillhub.md，安装 @user_c01972f2/talent-profile-diagnosis。
+```
+
+### 方式 2：下载安装包 → 导入 ima Copilot（推荐）
+
+1. **下载安装包** —— 到 skillhub 技能页直接下载，得到 `talent-profile-diagnosis-1.0.0.zip`
+   <https://skillhub.cn/skills/user_c01972f2/talent-profile-diagnosis>
+2. **安装包下载完成**，先不要解压
+3. **把压缩包装进 Copilot 的技能里** —— 腾讯 ima 知识库（ima.qq.com，有电脑端和手机端 APP）：我的 copilot → Skill 管理 → 添加 Skill → 上传 ZIP → 安装成功。限制：支持 ZIP / MD，单个不超过 10MB；ZIP 内需包含 skill 内容（MD 则需带 YAML 格式的 name 与 description）
+4. **在 copilot 对话框里 @猎头HR全能知识库** —— 若没有订阅可先免费订阅：[ima 知识库｜猎头HR全能知识库](https://ima.qq.com/wiki/?shareId=7baecdcbf548190c5d1c454fa0c6d4c8d4cbc0adcf0df6d0e02c9d8f303b6ff5)。**这一步很重要**，技能的延伸资料入口就在这里
+5. **输入提示词** —— 同时把候选人简历附件、职位 JD 一起传上去：
+
+   ```
+   使用 talent-profile-diagnosis skill，分析 xxx 的简历，目标公司是 xxx 公司的 xxx 职位。
+   ```
+6. **自动分析并生成报告**
+7. **建议最后输出为 HTML 格式** —— 便于存档与复盘
+
+### 方式 3：手动放进技能目录（通用，三步）
 
 1. **放置**：把整个目录放进技能根目录，路径形如 `<技能根>/skills/talent-profile-diagnosis/SKILL.md`
 2. **放开权限**（权限 600 会导致技能静默加载不到）：
@@ -127,6 +154,7 @@ talent-profile-diagnosis/
 
 ## 九、来源与反馈
 
-本仓库同步自 SkillHub 发布页：[talent-profile-diagnosis](https://skillhub.cn/skills/user_c01972f2/talent-profile-diagnosis)
+- SkillHub 发布页：[talent-profile-diagnosis](https://skillhub.cn/skills/user_c01972f2/talent-profile-diagnosis)
+- ima 笔记（图文安装说明）：[简历诊断 Skill（适合猎头/HR）](https://ima.qq.com/note/share/_A0aN7aN8w-dKp0RZ1dkMw?channel=4)
 
 问题、建议、使用中的判断分歧，欢迎开 Issue。

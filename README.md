@@ -157,4 +157,4 @@ talent-profile-diagnosis/
 - SkillHub 发布页：[talent-profile-diagnosis](https://skillhub.cn/skills/user_c01972f2/talent-profile-diagnosis)
 - ima 笔记（图文安装说明）：[简历诊断 Skill（适合猎头/HR）](https://ima.qq.com/note/share/_A0aN7aN8w-dKp0RZ1dkMw?channel=4)
 
-问题、建议、使用中的判断分歧，欢迎开 Issue。
+问题、建议、使用中的判断分歧，欢迎开 Issue
